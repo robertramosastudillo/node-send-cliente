@@ -1,7 +1,7 @@
 import {
   REGISTO_EXITOSO,
   REGISTO_ERROR,
-  LIMPIAR_ALERTA,
+  OCULAR_ALERTA,
   LOGIN_EXITOSO,
   LOGIN_ERROR,
   USUARIO_AUTENTICADO,
@@ -24,7 +24,7 @@ export default (state, action) => {
         token: action.payload,
         autenticado: true,
       };
-    case LIMPIAR_ALERTA:
+    case OCULAR_ALERTA:
       return {
         ...state,
         mensaje: null,

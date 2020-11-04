@@ -4,7 +4,7 @@ import authReducer from "./authReducer";
 import {
   REGISTO_EXITOSO,
   REGISTO_ERROR,
-  LIMPIAR_ALERTA,
+  OCULAR_ALERTA,
   LOGIN_EXITOSO,
   LOGIN_ERROR,
   USUARIO_AUTENTICADO,
@@ -42,7 +42,7 @@ const AuthState = ({ children }) => {
     // Limpia la alerta despues de 3 segundos
     setTimeout(() => {
       dispatch({
-        type: LIMPIAR_ALERTA,
+        type: OCULAR_ALERTA,
       });
     }, 3000);
   };
@@ -65,7 +65,7 @@ const AuthState = ({ children }) => {
     // Limpia la alerta despues de 3 segundos
     setTimeout(() => {
       dispatch({
-        type: LIMPIAR_ALERTA,
+        type: OCULAR_ALERTA,
       });
     }, 3000);
   };
