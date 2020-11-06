@@ -1,6 +1,6 @@
 module.exports = {
   env: {
-    backendUrl: "https://frozen-scrubland-11444.herokuapp.com/",
-    frontendURL: "https://node-send-cliente-rho.vercel.app/",
+    backendUrl: "https://thawing-island-37302.herokuapp.com/",
+    frontendURL: "https://node-send-cliente-ten.vercel.app/",
   },
 };
